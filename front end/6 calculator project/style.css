@@ -1,0 +1,18 @@
+.container{
+    background-color: rgb(155, 103, 155);
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows:  70px 70px 70px 70px 70px;
+    height: 425px;
+    width: 500px;
+    justify-content: center;
+    justify-self: start;
+    align-self: center; 
+} 
+.display{
+    grid-column: 1/5;    
+    background-color: aliceblue;
+}
+.zero{
+    grid-column: 1/3;
+}

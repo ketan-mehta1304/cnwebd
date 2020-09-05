@@ -1,0 +1,33 @@
+.outerbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.box{
+    position: relative;
+    border-radius: 50%;
+    background-color: rgb(36, 50, 180);
+    height: 200px;
+    width: 200px;
+}
+.innerbox{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 25%;
+    left: 25%;
+    background-color: white;
+}
+.button{
+    position: absolute;
+    top: 110%;
+    left: 25%;;
+}
+.button1{
+    position: absolute;
+    top: 125%;
+    left: 30%;
+}
